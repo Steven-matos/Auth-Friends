@@ -33,7 +33,7 @@ class FriendsList extends Component {
                 <AddFriends />
                 <div className='friend-list-container'>
                     {this.state.friends.map(friend => 
-                        <Paper elevation={3} className='friends' >
+                        <Paper key={friend.id} elevation={3} className='friends' >
                             <h2>Name: {friend.name}</h2>
                             <p>Age: {friend.age}</p>
                             <p>Email: {friend.email}</p>
