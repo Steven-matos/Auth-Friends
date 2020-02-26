@@ -14,13 +14,19 @@ class AddFriends extends Component {
     }
 
     HandleChange = e => {
+        e.persist();
+        let value = e.target.value;
+        if(e.target.name === 'age'){
+            value = parseInt(value, 10);
+        }
+
         this.setState({
             friend: {
             ...this.state.friend,     
-            [e.target.name]: e.target.value
+            [e.target.name]: value
             }
-        })
-    }
+        });
+    };
 
     HandleSubmit = e => {
         axiosWithAuth()
