@@ -6,7 +6,7 @@ import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 
 class Login extends Component {
-    state ={
+    state = {
         isLoading: false,
         credentials: {
             username: '',
