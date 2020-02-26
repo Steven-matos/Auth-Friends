@@ -30,7 +30,6 @@ class AddFriends extends Component {
     }
 
     render() {
-        console.log(this.state.friend)
         return (
             <div className='addfriend-container'>
                 <form className='addfriend-form' noValidate autoComplete="off" onSubmit={this.HandleSubmit}>
