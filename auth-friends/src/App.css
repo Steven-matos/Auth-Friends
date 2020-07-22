@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Login */
+.login-container {
+  width: 20%;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 1.5rem auto;
+}
+
+.login-btn {
+  margin: .6rem auto;
+}
+
+.input-form{
+  margin: .5rem auto;
+}
+
+/* Add Friend Form */
+.addfriend-container {
+  width: 25%;
+  margin: 2rem auto;
+  padding: 0 2.5rem;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.addfriend-form {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto;
+}
+
+.addfriend-submit {
+  margin: 1rem auto;
+}
+
+/* Friend List */
+.friend-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.friends {
+  padding: 1.5rem;
+
+}
